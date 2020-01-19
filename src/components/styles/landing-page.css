@@ -1,0 +1,95 @@
+.landing-page-container {
+  height: calc(100vh);
+  width: 100%;
+  position: relative;
+  display: block;
+}
+.landing-page-container:before {
+  content: "";
+  width: 100%;
+  height: calc(100vh);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+@media screen and (max-width: 600px) {
+  .restaurant-title {
+    font-size: 32px;
+    margin: auto auto 24px auto;
+    width: 250px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+@media screen and (min-width: 601px) {
+  .restaurant-title {
+    text-align: center;
+    font-size: 64px;
+    width: 100%;
+    height: auto;
+    margin: auto auto 48px auto;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+@media screen and (max-width: 600px) {
+    .restaurant-description {
+        font-size: 20px;
+        margin: 16px auto auto auto;
+        font-family: 'Roboto', sans-serif;
+        width: auto;
+        height: auto;
+        padding:8px
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .restaurant-description {
+        font-size: 32px;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        margin: 0px auto auto auto;
+        text-align: center;
+    }
+  }
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 601px) {
+  .restaurant-title-container {
+    margin: auto;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    line-height: 1.4;
+    position: absolute;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+    flex-direction: column;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .restaurant-title-container {
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    height: calc(100vh);
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    max-width: 350px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-top:72px;
+    right: 0;
+    z-index: 999;
+    line-height: 1.4;
+    color: #fff;
+  }
+}

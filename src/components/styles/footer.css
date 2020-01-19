@@ -1,0 +1,14 @@
+.footer-container {
+  height: 100px;
+  width: -webkit-fill-available;
+  background-color: #09150aeb;
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 8px;
+  justify-content: center;
+}
+
+.footer-icons {
+  margin: 8px;
+}
