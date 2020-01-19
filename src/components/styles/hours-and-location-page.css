@@ -76,22 +76,27 @@
      background-color: #fff;
      min-height: 400px;
      color:#09150aeb;
+     font-family: 'Roboto', sans-serif;
    }
    .main-content-headers {
        font-size: 28px;
        color:#09150aeb;
+       font-family: 'Roboto', sans-serif;
    }
    .main-content-secondary-headers {
     font-size: 16px;
-    color:#7c7979
+    color:#7c7979;
+    font-family: 'Roboto', sans-serif;
     }
     .main-content-body{
         margin:32px 24px;
         padding-bottom: 18px;
+        font-family: 'Roboto', sans-serif;
     }
  }
  @media screen and (min-width: 601px) {
     .main-content {
+      font-family: 'Roboto', sans-serif;
      text-align: center;
      width: 100%;
      background-color: #fff;
@@ -101,12 +106,15 @@
    .main-content-headers {
     font-size: 40px;
     color:#09150aeb;
+    font-family: 'Roboto', sans-serif;
     }
     .main-content-secondary-headers {
+      font-family: 'Roboto', sans-serif;
         font-size: 24px;
         color:#7c7979
     }
     .main-content-body{
+      font-family: 'Roboto', sans-serif;
         margin:32px 24px;
         padding-bottom: 32px;
     }

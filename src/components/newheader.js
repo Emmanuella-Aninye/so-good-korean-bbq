@@ -27,7 +27,6 @@ class header extends React.Component {
           <Link to="/hours-and-location-page/">
             <h1 className="menu-names">{"Hours & Location"}</h1>
           </Link>
-          <h1 className="menu-names">{"Events"}</h1>
         </div>
         <img
           src={hamburger}
@@ -36,7 +35,7 @@ class header extends React.Component {
             this.handleClick()
           }}
         />
-        <Drawer variant="persistent" anchor="right" open={this.state.active}>
+        <Drawer variant="temporary" anchor="right" open={this.state.active} transitionDuration={ {enter:500, exit:500} }>
           <div className="drawer">
             <div className="close-icon">
               <CloseIcon

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../components/styles/hours-and-location-page.css";
-import kbbqImage from "../images/kbbq3.jpg";
+import kbbqImage from "../images/man-cooking.jpg";
 import Footer from "../components/footer";
 import Header from "../components/newheader";
 import SEO from "../components/seo"

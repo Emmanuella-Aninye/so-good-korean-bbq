@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import "../components/styles/menu-page.css"
-import kbbqImage from "../images/kbbq6.jpg"
+import kbbqImage from "../images/kbbq7.jpg"
 import Footer from "../components/footer"
 import Header from "../components/newheader"
 import SEO from "../components/seo"
@@ -52,8 +52,8 @@ class MenuPage extends Component {
         <Header />
         <div className="menu-page-container">
           <img
+          className="menu-page-image"
             src={kbbqImage}
-            style={{ width: "100%", height: "450px", objectFit: "cover" }}
             alt="korean-bbq-pic"
           />
           <div className="menu-page-title-container">

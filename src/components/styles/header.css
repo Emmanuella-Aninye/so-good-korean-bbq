@@ -1,3 +1,6 @@
+a:-webkit-any-link {
+  color: transparent
+}
 .menu-names {
   font-size: 24px;
   margin: 8px;
@@ -23,6 +26,7 @@
       display: none
   }
     .header {
+      font-family: 'Roboto', sans-serif;
         height: 72px;
         width: 100%;
         display: inline-flex;
@@ -33,9 +37,10 @@
         z-index: 1100;
       }
       .menu-items {
+        font-family: 'Roboto', sans-serif;
         display: inline-flex;
         margin: 0px 8px 0px auto;
-        min-width: 500px;
+        min-width: 400px;
         justify-content: space-evenly;
         align-items: center;
       }
@@ -56,6 +61,7 @@
 
       }
       .restaurant-name {
+        font-family: 'Roboto', sans-serif;
         font-size: 20px;
         margin: 16px;
         z-index: 1000;
