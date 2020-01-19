@@ -9,7 +9,7 @@ class LandingPage extends Component {
   render() {
     return (
       <div>
-            <SEO title="Home" />
+    <SEO title="So Good Korean BBQ" description="Delicious meat grilled on the finest coals for a one of a kind dining experience." />
         <Header/>
         <div className="landing-page-container">
           <img

@@ -3,11 +3,16 @@ import "../components/styles/hours-and-location-page.css";
 import kbbqImage from "../images/kbbq3.jpg";
 import Footer from "../components/footer";
 import Header from "../components/newheader";
+import SEO from "../components/seo"
 
 class HoursAndLocationPage extends Component {
   render() {
     return (
       <div>
+        <SEO
+          title="So Good Korean BBQ Hours & Location"
+          description="So Good Korean BBQ Hours & Location"
+        />
         <Header/>
         <div className="hours-and-location-page-container">
           <img
