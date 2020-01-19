@@ -46,8 +46,8 @@ class MenuPage extends Component {
     return (
       <div>
         <SEO
-          title="So Good Korean BBQ Menu"
-          description="So Good Korean BBQ Menu"
+          title="Meokja Meokja Meokja Korean BBQ Menu"
+          description="Meokja Meokja Meokja Korean BBQ Menu"
         />
         <Header />
         <div className="menu-page-container">
@@ -61,13 +61,6 @@ class MenuPage extends Component {
           </div>
         </div>
         <div className="main-content">
-          <div style={{ paddingBottom: 16 }}>
-            <h1 className="menu-top-header">6-COURSE TASTING SETS</h1>
-            <h1 className="menu-top-header-subtext">
-              Delicious food segmented into exquisite sections and pheonemnal
-              names.
-            </h1>
-          </div>
           <div style={{ paddingBottom: 32 }}>
             <h1 className="sub-menu-header">APPETIZER</h1>
             <h1 className="sub-menu-header-subtext">

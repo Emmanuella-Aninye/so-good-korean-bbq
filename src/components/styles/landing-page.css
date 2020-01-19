@@ -29,6 +29,7 @@
     font-size: 56px;
     width: 100%;
     height: auto;
+    font-weight: 900;
     margin: auto auto 48px auto;
     font-family: 'Roboto', sans-serif;
   }
@@ -48,6 +49,7 @@
         font-size: 32px;
         font-family: 'Roboto', sans-serif;
         width: 100%;
+        font-weight: 400;
         margin: 0px auto auto auto;
         text-align: center;
     }

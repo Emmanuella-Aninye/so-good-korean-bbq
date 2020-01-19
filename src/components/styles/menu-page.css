@@ -62,7 +62,8 @@
 
 @media screen and (max-width: 600px) {
   .menu-page-title {
-    font-size: 32px;
+    font-size: 64px;
+    line-height: 1em;
     margin: auto;
     width: 100%;
     height: auto;
@@ -71,10 +72,10 @@
 @media screen and (min-width: 601px) {
   .menu-page-title {
     text-align: center;
-    font-size: 64px;
+    font-size: 96px;
     width: 100%;
     height: auto;
-    margin: auto auto 48px auto;
+    margin: auto;
   }
 }
 @media screen and (max-width: 600px) {

@@ -6,6 +6,7 @@ exports.components = {
   "component---src-pages-404-js": () => import("./../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-hours-and-location-page-js": () => import("./../src/pages/hours-and-location-page.js" /* webpackChunkName: "component---src-pages-hours-and-location-page-js" */),
   "component---src-pages-index-js": () => import("./../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
-  "component---src-pages-menu-page-js": () => import("./../src/pages/menu-page.js" /* webpackChunkName: "component---src-pages-menu-page-js" */)
+  "component---src-pages-menu-page-js": () => import("./../src/pages/menu-page.js" /* webpackChunkName: "component---src-pages-menu-page-js" */),
+  "component---src-pages-join-us-js": () => import("./../src/pages/join-us.js" /* webpackChunkName: "component---src-pages-join-us-js" */)
 }
 

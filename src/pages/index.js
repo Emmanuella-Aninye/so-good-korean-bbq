@@ -11,7 +11,7 @@ class LandingPage extends Component {
   render() {
     return (
       <div>
-    <SEO title="So Good Korean BBQ" description="Delicious meat grilled on the finest coals for a one of a kind dining experience." />
+    <SEO title="Meokja Meokja Meokja Korean BBQ" description="Delicious meat grilled on the finest coals for a one of a kind dining experience." />
         <Header/>
         <div className="landing-page-container">
           <img
@@ -20,9 +20,9 @@ class LandingPage extends Component {
             alt="korean-bbq-pic"
           />
           <div className="restaurant-title-container">
-            <h1 className="restaurant-title">So Good Korean BBQ</h1>
+            <h1 className="restaurant-title">Meokja Meokja Meokja</h1>
             <h1 className="restaurant-description">
-              Delicious meat grilled on the finest coals
+              Providing the Finest Korean BBQ. Come Eat!
             </h1>
           </div>
         </div>

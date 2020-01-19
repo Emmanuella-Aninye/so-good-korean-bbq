@@ -1,0 +1,73 @@
+.join-us-cointainer{
+    height: 100%;
+    min-height: 800px;
+    width: 100%;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.join-us-content{
+    padding:18px;
+
+}
+.join-us-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .08em;
+    line-height: 1.5em;
+}
+
+.roles-title{
+    color: #1c281e;
+    text-align: left;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: .08em;
+    line-height: 1.5em;
+}
+.roles-descroption{
+    color:#7c7979;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .08em;
+    line-height: 1.5em;
+}
+@media screen and (min-width: 601px) {
+    .roles-div{
+        margin-top: 16px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        display: flex;
+
+    }
+    .roles-title{
+        width: 400px;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-style: normal;
+        letter-spacing: .015em;
+        text-decoration: none;
+        line-height: 1.2em;
+    }
+    .join-us-content{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .roles-descroption{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: .08em;
+    line-height: 1.5em;
+    }
+    .join-us-description{
+        font-size: 20px;
+
+    }
+}

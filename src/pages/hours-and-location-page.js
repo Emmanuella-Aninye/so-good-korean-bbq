@@ -10,15 +10,15 @@ class HoursAndLocationPage extends Component {
     return (
       <div>
         <SEO
-          title="So Good Korean BBQ Hours & Location"
-          description="So Good Korean BBQ Hours & Location"
+          title="Meokja Meokja Meokja Korean BBQ Hours & Location"
+          description="Meokja Meokja Meokja Korean BBQ Hours & Location"
         />
         <Header/>
         <div className="hours-and-location-page-container">
           <img
             src={kbbqImage}
-            style={{ width: "100%", height: "450px", objectFit: "cover" }}
             alt="korean-bbq-pic"
+            className="image"
           />
           <div className="hours-and-location-title-container">
             <h1 className="hours-and-location-title">{"Hours & Location"}</h1>
@@ -33,7 +33,7 @@ class HoursAndLocationPage extends Component {
           </div>
           <div className="main-content-body">
           <h1 className="main-content-headers">Location</h1>
-          <h3 className="main-content-secondary-headers">12345 Broad Street, Richmond VA 23220</h3>
+          <h3 className="main-content-secondary-headers">12345 Broad Street, Washington DC 23220</h3>
           </div>
           <div className="main-content-body">
           <h1 className="main-content-headers">Reservations</h1>

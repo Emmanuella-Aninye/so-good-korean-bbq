@@ -18,7 +18,7 @@ class header extends React.Component {
     return (
       <div className="header">
         <Link to="/">
-          <h1 className="restaurant-name">{"So Good Korean BBQ"}</h1>
+          <h1 className="restaurant-name">{"Meokja Meokja Meokja"}</h1>
         </Link>
         <div className="menu-items">
           <Link to="/menu-page/">
@@ -26,6 +26,9 @@ class header extends React.Component {
           </Link>
           <Link to="/hours-and-location-page/">
             <h1 className="menu-names">{"Hours & Location"}</h1>
+          </Link>
+          <Link to="/join-us/">
+            <h1 className="menu-names">{"Join Us"}</h1>
           </Link>
         </div>
         <img
@@ -54,6 +57,9 @@ class header extends React.Component {
               <Link to="/hours-and-location-page/">
                 <h1 className="menu-drawer-items">Hours & Location</h1>
               </Link>
+              <Link to="/join-us/">
+              <h1 className="menu-drawer-items">Join Us</h1>
+          </Link>
             </div>
           </div>
         </Drawer>
