@@ -20,10 +20,13 @@ class LandingPage extends Component {
             alt="korean-bbq-pic"
           />
           <div className="restaurant-title-container">
-            <h1 className="restaurant-title">Meokja Meokja Meokja</h1>
+            <div className="restaurant-title">
+            Meokja Meokja Meokja
             <h1 className="restaurant-description">
-              Providing the Finest Korean BBQ. Come Eat!
+              Providing the Finest Korean BBQ Experience. Come Eat!
             </h1>
+            </div>
+
           </div>
         </div>
         <AboutUs/>

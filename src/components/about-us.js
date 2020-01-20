@@ -22,7 +22,7 @@ class AboutUs extends Component {
           <h3 className="about-us-content-times">Sunday-Thursday: 11am–12am</h3>
           <h3 className="about-us-content-times">Friday-Saturday: 11am–2am</h3>
           <br/>
-          <h3 className="about-us-content-times">12345 Broad Street, Richmond VA 23220</h3>
+          <h3 className="about-us-content-times">12345 Broad Street, Washington DC 23220</h3>
           <h3 className="about-us-content-times">
           123.456.7890
           </h3>
